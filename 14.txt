@@ -1,0 +1,7 @@
+import turtle as t
+import numpy as np
+def star(a):
+    for i in range(a):
+        t.forward(100)
+        t.left(180-(180/a))
+star(5)
